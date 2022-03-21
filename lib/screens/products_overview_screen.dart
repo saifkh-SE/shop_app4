@@ -20,7 +20,7 @@ class ProductsOverviewScreen extends StatefulWidget {
 
 class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   var _showOnlyFavorites = false;
-  var _isInit = true;
+  // var _isInit = true;
   var _isLoading = false;
 
   Future<void> _refreshProducts(BuildContext context) async {
